@@ -2,16 +2,16 @@
 <package >
   <metadata>
     <id>XamFileStorage.Netstandard</id>
-    <version>1.0.1</version>
-    <authors>Mats Andersson</authors>
-    <owners>Mats Andersson</owners>
+    <version>1.0.4</version>
+    <authors>Roger Ye</authors>
+    <owners>Roger Ye</owners>
     <licenseUrl>https://github.com/DuckArne/XamStorage.Library/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/DuckArne/XamStorage.Library</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Netstandard 2.0 Rewrite of PCLStorage</description>
+    <description>Modified based on Mats Andersson's code for PassXYZ.</description>
     <releaseNotes>Added access to common public folders</releaseNotes>
-    <copyright>Copyright 2017 Mats Andersson</copyright>
+    <copyright>Copyright 2018 Roger Ye</copyright>
     <tags>Xamarin Xamarin.Forms iOS Android UWP </tags>
     <dependencies>
     </dependencies>
