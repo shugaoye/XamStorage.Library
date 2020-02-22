@@ -1,19 +1,33 @@
-<?xml version="1.0"?>
-<package >
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>XamFileStorage.Netstandard</id>
     <version>1.0.4</version>
     <authors>Roger Ye</authors>
     <owners>Roger Ye</owners>
-    <licenseUrl>https://github.com/DuckArne/XamStorage.Library/blob/master/LICENSE</licenseUrl>
-    <projectUrl>https://github.com/DuckArne/XamStorage.Library</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/jamesmontemagno/Xamarin-Templates/master/Plugins-Templates/icons/plugin_icon_nuget.png</iconUrl>
+    <projectUrl>https://github.com/shugaoye/XamStorage.Library</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Modified based on Mats Andersson's code for PassXYZ.</description>
     <releaseNotes>Added access to common public folders</releaseNotes>
     <copyright>Copyright 2018 Roger Ye</copyright>
     <tags>Xamarin Xamarin.Forms iOS Android UWP </tags>
+    <repository type="git" url="https://github.com/shugaoye/XamStorage.Library" />
     <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="XamStorage.Abstractions" version="1.0.4" exclude="Build,Analyzers" />
+      </group>
+      <group targetFramework="MonoAndroid1.0">
+        <dependency id="XamStorage" />
+        <dependency id="XamStorage.Abstractions" version="1.0.4" />
+      </group>
+      <group targetFramework="Xamarin.iOS1.0">
+        <dependency id="XamStorage" />
+        <dependency id="XamStorage.Abstractions" version="1.0.4" />
+      </group>
+      <group targetFramework="UAP1.0">
+        <dependency id="XamStorage" />
+        <dependency id="XamStorage.Abstractions" version="1.0.4" />
+      </group>
     </dependencies>
   </metadata>
 
@@ -41,7 +55,7 @@
 
     <file src="XamStorage.UWP\bin\Release\XamStorage.dll" target="lib\UAP10\XamStorage.dll"/>
     <file src="XamStorage.UWP\bin\Release\XamStorage.xml" target="lib\UAP10\XamStorage.xml"/>
-    <file src="XamStorage.UWP\bin\Release\XamStorage.pdb" target="lib\UAP10\XamStorage.pdb"/>    
+    <file src="XamStorage.UWP\bin\Release\XamStorage.pdb" target="lib\UAP10\XamStorage.pdb"/>
     <file src="XamStorage.UWP\bin\Release\XamStorage.Abstractions.dll" target="lib\UAP10\XamStorage.Abstractions.dll"/>
     <file src="XamStorage.UWP\bin\Release\XamStorage.Abstractions.xml" target="lib\UAP10\XamStorage.Abstractions.xml"/>
     <file src="XamStorage.UWP\bin\Release\XamStorage.Abstractions.pdb" target="lib\UAP10\XamStorage.Abstractions.pdb"/>

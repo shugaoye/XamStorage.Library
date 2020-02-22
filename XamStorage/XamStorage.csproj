@@ -2,6 +2,19 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <RepositoryUrl>https://github.com/shugaoye/XamStorage.Library</RepositoryUrl>
+    <RepositoryType></RepositoryType>
+    <PackageProjectUrl>https://github.com/shugaoye/XamStorage.Library</PackageProjectUrl>
+    <Authors>Roger Ye</Authors>
+    <Company>shugaoye</Company>
+    <PackageId>XamFileStorage.Netstandard</PackageId>
+    <Version>1.0.4</Version>
+    <PackageReleaseNotes>Added access to common public folders</PackageReleaseNotes>
+    <Description>Modified based on Mats Andersson's code for PassXYZ.</Description>
+    <Copyright>Copyright 2018 Roger Ye</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <AssemblyVersion>1.0.4.1</AssemblyVersion>
+    <FileVersion>1.0.4.1</FileVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
